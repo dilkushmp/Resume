@@ -153,18 +153,48 @@ const badgesection = [
     description: "Earned December 06, 2020",
   },
   {
-    title: "CSWAP- Certified Mold Making",
+    title: "CSWAP- Mold Making",
     image: "assets/images/education-page/Professional - Mold Making.png",
     description: "Earned April 22, 2021",
   },
   {
-    title: "CSWAP- Certified SOLIDWORKS Professional -Advanced Drawing Tools",
+    title: "CSWAP- Drawing Tools",
     image: "assets/images/education-page/Professional - Drawing Tools.png",
     description: "Earned November 21, 2020",
   },
   {
     title: "CSWAP- Sheet Metal",
     image: "assets/images/education-page/Professional - Sheet Metal.png",
+    description: "Earned December 06, 2020",
+  },
+  {
+    title: "CSWAP- Surfacing",
+    image: "assets/images/education-page/Professional - Surfacing.png",
+    description: "Earned April 22, 2021",
+  },
+  {
+    title: "CSWAP- Weldments",
+    image: "assets/images/education-page/Professional - Weldments.png",
+    description: "Earned November 21, 2020",
+  },
+  {
+    title: "CSWA- Additive Manufacturing",
+    image: "assets/images/education-page/Associate - Additive Manufacturing.png",
+    description: "Earned December 06, 2020",
+  },
+  {
+    title: "CSWA- Sustainability",
+    image: "assets/images/education-page/Associate - Sustainability.png",
+    description: "Earned April 22, 2021",
+  },
+  {
+    title: "3DEXPERIENCE 3DCreator",
+    image: "assets/images/education-page/3DEXPERIENCE3DCreator.png",
+    description: "Earned November 21, 2020",
+  },
+  {
+    title: "3DEXPERIENCE Collaborative Business Innovator",
+    image: "assets/images/education-page/3DEXPERIENCECollaborativeBusinessInnovator.png",
     description: "Earned December 06, 2020",
   },
 ];
