@@ -66,7 +66,7 @@ const moocscards = [
   },
 ];
 const experience = document.querySelector(".experience");
-const experience = [
+const experiencecards = [
   {
     img: "assets/images/education-page/c1.png"
   },
