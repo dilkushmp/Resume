@@ -109,7 +109,7 @@ const showCards = () => {
   let output = "";
   projects.forEach(
     ({ title, cardImage, tags, Previewlink, Githublink }) => {
-      (output += `       
+      (output += `
         <div class="column skill-card card" style="margin: 15px">
           <div class="wrapper" style="background: url(${cardImage}) center / cover no-repeat;">
             <div class="header">

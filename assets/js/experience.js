@@ -32,8 +32,8 @@ const showCards2 = () => {
   let output = "";
   exp.forEach(
     ({ title, cardImage, place, time, desp }) =>
-      (output += `        
-    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
+      (output += `
+    <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400">
       <div class="card card1">
         <img src="${cardImage}" class="featured-image"/>
         <article class="card-body">
@@ -105,14 +105,14 @@ const showCards = () => {
   let output = "";
   volunteershipcards.forEach(
     ({ title, cardImage, description }) =>
-      (output += `        
+      (output += `
       <div class="card volunteerCard" style="height: 600px;width:400px">
-      
+
       <img src="${cardImage}" height="300" width="65" class="card-img" style="border-radius:10px">
       <div class="content">
           <h2 class="volunteerTitle">${title}</h2><br>
           <p class="copy">${description}</p></div>
-      
+
       </div>
       `)
   );
@@ -144,8 +144,8 @@ const showCards3 = () => {
   let output = "";
   mentor.forEach(
     ({ title, image, time, desp}) =>
-      (output += `        
-      <div class="column mentorshipCard"> 
+      (output += `
+      <div class="column mentorshipCard">
       <div class="card card2 mentorshipCardCover">
         <img src="${image}" class="card-img-top" alt="..."  width="64" height="300">
         <div class="information">

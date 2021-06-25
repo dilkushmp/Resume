@@ -110,7 +110,7 @@ let footer = $(`
         </a>
         <a href="mpdilkush@gmail.com" class="email-icon sub-footer-icon" >
         <i id="mail" class="fa fa-envelope" ></i>
-        </a> 
+        </a>
         <a href="#" class="dribbble sub-footer-icon">
               <i class="fab fa-dribbble"></i>
             </a>
