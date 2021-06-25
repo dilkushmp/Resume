@@ -144,7 +144,7 @@ const mentor = [
   },
   {
     title: "Tinkerhub",
-    image: "assets/images/experience-page/techhub.png",
+    image: "assets/images/experience-page/tinkerhub.jpeg",
     time: "07/2020 - 04/2021",
     desp: "<li>Unmanned Arial Vehicle.</li><hr /><li>Guiding them to develop a knowledge about UAV's!</li>",
   },
