@@ -99,30 +99,18 @@ let footer = $(`
         <p>"Develop a passion for learning. If you do, you will never cease to grow."</p>
       </div>
       <div class="footer-icons">
-      <a href="#" class="linkedin sub-footer-icon">
+      <a href="https://www.linkedin.com/in/dilkushmp/" class="linkedin sub-footer-icon">
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="#" class="git sub-footer-icon">
+        <a href="https://github.com/dilkushmp" class="git sub-footer-icon">
           <i class="fab fa-github"></i>
         </a>
-        <a href="#" class="twitter sub-footer-icon">
+        <a href="https://twitter.com/DilkushMP" class="twitter sub-footer-icon">
           <i class="fab fa-twitter"></i>
         </a>
-        <a href="#" class="email-icon sub-footer-icon" >
+        <a href="mpdilkush@gmail.com" class="email-icon sub-footer-icon" >
         <i id="mail" class="fa fa-envelope" ></i>
-        </a>
-        <a href="#" class="kaggle sub-footer-icon" >
-        <i class="fab fa-kaggle" id="kaggle-icon" ></i>
         </a> 
-        <!-- <a href="#" class="google-scholar sub-footer-icon">
-        <i class="ai ai-google-scholar-square ai-3x" ></i>
-        </a>
-         <a href="#" class="leetcode sub-footer-icon">
-        <span class="iconify" data-icon="cib:leetcode" data-inline="false"></span>
-        </a>
-        <a href="#" class="codeforces sub-footer-icon">
-        <span class="iconify" data-icon="simple-icons:codeforces" data-inline="false"></span>
-        </a>
         <a href="#" class="dribbble sub-footer-icon">
               <i class="fab fa-dribbble"></i>
             </a>
@@ -146,13 +134,13 @@ let footer = $(`
         <button class="submit"  type="submit">Send</button>
       </form>
     </div>
-    
+
     <!-- <div class="tt-copy">
       <div class="container col-sm-6">
        <center class="text-animation">Made with <i class="fa fa-heart" style="color: red;"></i></center>
       </div>
     </div> -->
-    
+
     </footer>`);
 let bodyElement = $(`body`);
 bodyElement.prepend(header);
@@ -191,7 +179,7 @@ if (checkbox) {
 
       document.documentElement.setAttribute("data-theme", "light");
       localStorage.setItem("theme", "light");
-    } else { 
+    } else {
       /*
       if there is click on toggler and if theme is light (initially it will be light) then the theme should convert to dark
       */
@@ -236,14 +224,12 @@ if (checkbox) {
         // hover effect
         icon.addEventListener('mouseover',  () => {
           icon.style.backgroundColor = 'transparent';
-         
+
         });
 
         icon.addEventListener('mouseleave',  () => {
           icon.style.backgroundColor = 'transparent';
         });
     });
-  } 
+  }
 }
-
-
