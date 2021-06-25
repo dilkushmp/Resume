@@ -135,25 +135,47 @@ document.addEventListener("DOMContentLoaded", showCards);
 
 
 /* Badges*/
-
-const bagdes = document.querySelector(".badges");
-const badgesection = [
-  {
-    title: "Google Developer Essentials",
-    image: "assets/images/education-page/badge1.png",
-    description: "Earned May 20, 2020",
-  },
-  {
-    title: "VM Migration",
-    image: "assets/images/education-page/badge2.png",
-    description: "Earned June 20, 2020",
-  },
-  {
-    title: "G Suite Essentials",
-    image: "assets/images/education-page/badge3.png",
-    description: "Earned July 20, 2020",
-  },
-];
+<!-- Badge Section -->
+<div class="py-2 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="mx-auto col-md-12">
+        <h4 class="text-muted text-center pb-1 pt-3" data-aos="fade-up" data-aos-delay="300">Badges</h4>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> <img
+          class="img-fluid d-block mb-3 mx-auto hvr-grow" src="./assets/images/education-page/badge1.png"
+          alt="Card image cap" width="200">
+        <div class="text-center text-dark font-weight-bolder" style="font-size: 1.3em;">
+          CSWP- Mechanical Design
+        </div>
+        <div class="text-center font-weight-bolder text-muted p-2">
+          Earned October, 2020
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> <img
+          class="img-fluid d-block mb-3 mx-auto hvr-grow" src="./assets/images/education-page/badge2.png"
+          alt="Card image cap" width="200">
+        <div class="text-center text-dark font-weight-bolder" style="font-size: 1.3em;">
+          VM Migration
+        </div>
+        <div class="text-center font-weight-bolder text-muted p-2">
+          Earned September, 2020
+        </div>
+      </div>
+      <div class="col-lg-4 p-2" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="600"> <img
+          class="img-fluid d-block mb-3 mx-auto hvr-grow" src="./assets/images/education-page/badge3.png" width="200">
+        <div class="text-center text-dark font-weight-bolder" style="font-size: 1.3em;">
+          CSWA- Additive Manufacturing
+        </div>
+        <div class="text-center font-weight-bolder text-muted p-2">
+          Earned September, 2020
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 const showCards1 = () => {
   let output = "";
