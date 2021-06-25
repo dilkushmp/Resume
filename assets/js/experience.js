@@ -11,18 +11,18 @@ const exp = [
     cardImage: "assets/images/experience-page/EVOURA.png",
     place: "EVOURA TECHNOLOGIES PRIVATE LIMITED ",
     time: "November, 2020 - Present)",
-    desp: "<li>worked in social community projects, Recruting and as a interviewer.</li> <li>Managed lots of intern, Also guided them.</li>",
+    desp: "<li>Designing the product box</li> <li>Product Design.</li>",
   },
   {
     title: "Head of Internet of Things Lab",
     cardImage: "assets/images/experience-page/EDC 1.png",
     place: "EDC NSSCE",
     time: "December, 2020 - Jan, 2021)",
-    desp: "<li>worked in social community projects, Recruting and as a interviewer.</li> <li>Managed lots of intern, Also guided them.</li>",
+    desp: "<li>College Internet of Things Lab in charge</li> <li>Worked as 3D printing machines</li>",
   },
   {
     title: "Mechanical Design Engineer Intern",
-    cardImage: "assets/images/experience-page/YOLO1.jpeg",
+    cardImage: "assets/images/experience-page/Sky.png",
     place: "Skyy Rider Institutions",
     time: "December, 2020 - Jan, 2021)",
     desp: "<li>worked in social community projects, Recruting and as a interviewer.</li> <li>Managed lots of intern, Also guided them.</li>",
@@ -86,28 +86,28 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "Institution of Engineers (India)",
+    cardImage: "assets/images/experience-page/ie.png",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Acted as Chairman, Student Convener, General Secretary & Student Representative",
   },
   {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
+    title: "Society of Automotive Engineers India",
+    cardImage: "assets/images/experience-page/sae.png",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Aero NSS Team Captain of SAE ADC 2020",
   },
   {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
+    title: "iEDC NSSCE",
+    cardImage: "assets/images/experience-page/edc.png",
     description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
+      "Panel Member and charge of IOT lab",
   },
   {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
+    title: "Aeromodelling and Arial Robotics Club",
+    cardImage: "assets/images/experience-page/aarc.jpg",
     description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "Co- founder of college club and Mentor",
   },
   {
     title: "30 DaysofFlutter",
