@@ -65,7 +65,7 @@ const moocscards = [
     moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
   },
 ];
-
+const experience = document.querySelector(".experience");
 const experience = [
   {
     img: "assets/images/education-page/c1.png"
