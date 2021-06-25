@@ -138,19 +138,34 @@ document.addEventListener("DOMContentLoaded", showCards);
 const bagdes = document.querySelector(".badges");
 const badgesection = [
   {
-    title: "Google Developer Essentials",
-    image: "assets/images/education-page/badge1.png",
-    description: "Earned May 20, 2020",
+    title: "CSWE- Certified SOLIDWORKS Expert",
+    image: "assets/images/education-page/Expert - Mechanical Design.png",
+    description: "Earned April 22, 2021",
   },
   {
-    title: "VM Migration",
-    image: "assets/images/education-page/badge2.png",
-    description: "Earned June 20, 2020",
+    title: "CSWP- Certified SOLIDWORKS Professional",
+    image: "assets/images/education-page/Professional - Mechanical Design.png",
+    description: "Earned November 21, 2020",
   },
   {
-    title: "G Suite Essentials",
-    image: "assets/images/education-page/badge3.png",
-    description: "Earned July 20, 2020",
+    title: "CSWA- Certified SOLIDWORKS Associate",
+    image: "assets/images/education-page/Associate - Mechanical Design.png",
+    description: "Earned December 06, 2020",
+  },
+  {
+    title: "CSWAP- Certified Mold Making",
+    image: "assets/images/education-page/Professional - Mold Making.png",
+    description: "Earned April 22, 2021",
+  },
+  {
+    title: "CSWAP- Certified SOLIDWORKS Professional -Advanced Drawing Tools",
+    image: "assets/images/education-page/Professional - Drawing Tools.png",
+    description: "Earned November 21, 2020",
+  },
+  {
+    title: "CSWAP- Sheet Metal",
+    image: "assets/images/education-page/Professional - Sheet Metal.png",
+    description: "Earned December 06, 2020",
   },
 ];
 const showCards1 = () => {
