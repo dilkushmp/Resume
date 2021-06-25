@@ -5,26 +5,48 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Mechanical Design Engineer",
+    cardImage: "assets/images/experience-page/EVOURA.png",
+    place: "EVOURA TECHNOLOGIES PRIVATE LIMITED ",
+    time: "November, 2020 - Present)",
+    desp: "<li>worked in social community projects, Recruting and as a interviewer.</li> <li>Managed lots of intern, Also guided them.</li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "Head of Internet of Things Lab",
+    cardImage: "assets/images/experience-page/EDC 1.png",
+    place: "EDC NSSCE",
+    time: "December, 2020 - Jan, 2021)",
+    desp: "<li>worked in social community projects, Recruting and as a interviewer.</li> <li>Managed lots of intern, Also guided them.</li>",
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp:"<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Mechanical Design Engineer Intern",
+    cardImage: "assets/images/experience-page/YOLO1.jpeg",
+    place: "Skyy Rider Institutions",
+    time: "December, 2020 - Jan, 2021)",
+    desp: "<li>worked in social community projects, Recruting and as a interviewer.</li> <li>Managed lots of intern, Also guided them.</li>",
+  },
+  {
+    title: "Team Lead Intern",
+    cardImage: "assets/images/experience-page/YOLO1.jpeg",
+    place: "YOUTH ONLINE LEARNING ORGANISATION",
+    time: "(May, 2020 - Jan, 2021)",
+    desp: "<li>worked in social community projects, Recruting and as a interviewer.</li> <li>Managed lots of intern, Also guided them.</li>",
+  },
+  {
+    title: "Reasearch and Development Intern",
+    cardImage: "assets/images/experience-page/Hound.png",
+    place: "HOUND ELECTRIC PVT. LTD",
+    time: "(April 2020- 15 days)",
+    desp: "<li>Reasearched Autonomous Electric Vehicle</li><li>Static requirement their Possiblity in Roads</li><li>Costs and Marketing.</li>",
+  },
+  {
+    title: "Robotics and Embedded system Intern",
+    cardImage: "assets/images/experience-page/Infox.png",
+    place: "INFOX TECHNOLOGIES, Kochi",
+    time: "(July, 2019 - 15 Days)",
+    desp:"<li>Worked on for Image Encryption and Image Forgery Detection.</li>",
   },
 ];
 
