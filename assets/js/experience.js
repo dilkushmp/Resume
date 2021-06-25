@@ -22,10 +22,10 @@ const exp = [
   },
   {
     title: "Mechanical Design Engineer Intern",
-    cardImage: "assets/images/experience-page/Sky.png",
+    cardImage: "assets/images/experience-page/Sky.jpg",
     place: "Skyy Rider Institutions",
     time: "December, 2020 - Jan, 2021)",
-    desp: "<li>worked in social community projects, Recruting and as a interviewer.</li> <li>Managed lots of intern, Also guided them.</li>",
+    desp: "<li>Worked as product designer</li>",
   },
   {
     title: "Team Lead Intern",
@@ -108,19 +108,7 @@ const volunteershipcards = [
     cardImage: "assets/images/experience-page/aarc.jpg",
     description:
       "Co- founder of college club and Mentor",
-  },
-  {
-    title: "30 DaysofFlutter",
-    cardImage: "assets/images/experience-page/5.jpg",
-    description:
-      "Helping beginners from their first steps in Flutter to building fully functional cross-platform applications.",
-  },
-  {
-    title: "Garuda Hacks",
-    cardImage: "assets/images/experience-page/6.jpg",
-    description:
-      "MLH sponsored Indonesia's premier Global Virtual Hackathon on 14 - 16th August 2020.",
-  },
+
 ];
 
 const showCards = () => {
