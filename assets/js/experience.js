@@ -10,21 +10,21 @@ const exp = [
     title: "Mechanical Design Engineer",
     cardImage: "assets/images/experience-page/EVOURA.png",
     place: "EVOURA TECHNOLOGIES PRIVATE LIMITED ",
-    time: "November, 2020 - Present)",
+    time: "(November, 2020 - Present)",
     desp: "<li>Designing the product box</li> <li>Product Design.</li>",
   },
   {
     title: "Head of Internet of Things Lab",
     cardImage: "assets/images/experience-page/EDC 1.png",
     place: "EDC NSSCE",
-    time: "December, 2020 - Jan, 2021)",
+    time: "(December, 2020 - Jan, 2021)",
     desp: "<li>College Internet of Things Lab in charge</li> <li>Worked as 3D printing machines</li>",
   },
   {
     title: "Mechanical Design Engineer Intern",
     cardImage: "assets/images/experience-page/Sky.jpg",
     place: "Skyy Rider Institutions",
-    time: "December, 2020 - Jan, 2021)",
+    time: "(December, 2020 - Jan, 2021)",
     desp: "<li>Worked as product designer</li>",
   },
   {
@@ -108,7 +108,7 @@ const volunteershipcards = [
     cardImage: "assets/images/experience-page/aarc.jpg",
     description:
       "Co- founder of college club and Mentor",
-
+  },
 ];
 
 const showCards = () => {
