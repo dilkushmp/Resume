@@ -176,22 +176,22 @@ document.addEventListener("DOMContentLoaded", showCards1);
 const timeline = document.querySelector(".timeline");
 const timelinesection = [
   {
-    heading: "Massachusetts Institute of Technology",
+    heading: "NSS College of Engineering",
     image: "./assets/images/education-page/nsscelogo.png",
+    subheading: "Bachelors of Technology, Mechanical Engineering, (2017-2021)",
+    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
+  },
+
+  {
+    heading: "MIC Higher Secondary School",
+    image: "./assets/images/education-page/mic.png",
     subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
     description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
   },
 
   {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
-    subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
-    description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
-  },
-
-  {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
+    heading: "PPMHSS Kottukkara",
+    image: "./assets/images/education-page/ppmhss.png",
     subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
     description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
   },
