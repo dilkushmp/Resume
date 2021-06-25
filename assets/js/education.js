@@ -5,66 +5,28 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "SOLIDWORKS 2017-21 :Become a Certified Associate Today-CSWA",
+    cardImage: "assets/images/education-pageudemy.png",
+    moocLink: "https://www.udemy.com/certificate/UC-319AH8EC/",
   },
   {
-    title: "Cryptography",
+    title: "SOLIDWORKS: Become a Certified Professional Today (CSWP)",
     cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "https://www.udemy.com/certificate/UC-26799299-6e7d-4ab8-8f27-fc7cfda4bf32/",
   },
   {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    title: "SOLIDWORKS: Simulation for Finite Element Analysis",
+    cardImage: "assets/images/education-page/linkedin.png",
+    moocLink: "https://www.linkedin.com/learning/solidworks-simulation-for-finite-element-analysis/",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "SOLIDWORKS: SimulationXpress",
+    cardImage: "assets/images/education-page/linkedin.png",
+    moocLink: "https://www.linkedin.com/learning/solidworks-simulationxpress/",
   },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/EdX.png",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
-  },
+  
 ];
+
 const experience = [
   {
     img: "assets/images/education-page/c1.png"
@@ -83,7 +45,7 @@ const experience = [
   },
 ];
 
-let currentItem = 5;
+let currentItem = 0;
 
 const img = document.getElementById('image');
 
