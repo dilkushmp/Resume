@@ -6,7 +6,7 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "SOLIDWORKS 2017-21 :Become a Certified Associate Today-CSWA",
-    cardImage: "assets/images/education-pageudemy.png",
+    cardImage: "assets/images/education-page/udemy.png",
     moocLink: "https://www.udemy.com/certificate/UC-319AH8EC/",
   },
   {
@@ -24,7 +24,7 @@ const moocscards = [
     cardImage: "assets/images/education-page/linkedin.png",
     moocLink: "https://www.linkedin.com/learning/solidworks-simulationxpress/",
   },
-  
+
 ];
 
 const experience = [
