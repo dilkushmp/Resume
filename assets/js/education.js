@@ -24,7 +24,11 @@ const moocscards = [
     cardImage: "assets/images/education-page/linkedin.png",
     moocLink: "https://www.linkedin.com/learning/solidworks-simulationxpress/",
   },
-
+  {
+    title: "SOLIDWORKS Simulation: Dynamic Analysis",
+    cardImage: "assets/images/education-page/linkedin.png",
+    moocLink: "https://www.linkedin.com/learning/solidworks-simulation-dynamic-analysis/",
+  },
 ];
 
 const experience = [
