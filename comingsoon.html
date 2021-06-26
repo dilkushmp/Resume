@@ -1,49 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
-<head>
-    <title>Blog | Dilkush</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="free portfolio template,portfolio template, portfolio website template, open source, open sourcing, contributing to open source" />
-    <meta name="description" content="This project serves free and beautiful portfolio template for everyone. Anyone can showcase their work including moocs, education, projects, experience,etc. to the world." />
+.bgimg {
+  background-image: url('./assets/images/comingsoon/forestbridge.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
 
-    <!-- Robot.txt -->
-    <meta name="robots" content="index,follow" />
-    <meta name="Googlebot" content="index,follow" />
-    <meta name="AdsBot-Google" content="index,follow" />
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
 
-    <meta property="og:site_name" content="https://portfolio.smaranjitghose.codes/education.html">
-    <meta property="og:title" content="Blog | Dilkush">
-    <meta property="og:description" content="This project serves free and beautiful portfolio template for everyone. Anyone can showcase their work including moocs, education, projects, experience,etc. to the world.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://portfolio.smaranjitghose.codes/education.html">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="https://twitter.com/DilkushMP">
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
 
-    <meta name="application-name" content="Blog | Dilkushn" />
-    <meta name="apple-mobile-web-app-title" content="Blog | Education" />
-    <meta name="summary" content="An open source project aimed at providing free and beautiful templates to everyone for building their portfolio websites and showcase their work to the world." />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-    <!--For Dark/Light mode Toggle-->
-    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <link rel="stylesheet" href="assets/css/hover-min.css">
-    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-    <link rel="stylesheet" href="assets/css/preloader.css">
-    <link rel="stylesheet" href="assets/css/education.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link id='favicon' rel="icon" href="assets/images/favicon.png" type="image/png">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-    <link id='favicon' rel="shortcut icon" href="assets/images/favicon.png" type="image/x-png">
-    <script defer src="./assets/js/dynamicTitle.js"></script>
-</head>
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
 
 <div class="bgimg">
   <div class="topleft">
@@ -52,9 +51,43 @@
   <div class="middle">
     <h1>COMING SOON</h1>
     <hr>
-    <p>35 days</p>
+    <p id="demo" style="font-size:30px"></p>
   </div>
   <div class="bottomleft">
     <p>Some text</p>
   </div>
 </div>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+
+// Update the count down every 1 second
+var countdownfunction = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now an the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is over, write some text
+  if (distance < 0) {
+    clearInterval(countdownfunction);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+</body>
+</html>
