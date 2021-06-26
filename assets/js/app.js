@@ -21,7 +21,7 @@ let header = $(`
    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
    <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
    <li class="nav-item"><a class="nav-link" href="./assets/docs/Dilkush.pdf" target="_blank">Resume</a></li>
-   <li class="nav-item"><a class="nav-link" href="404.html">Blog</a></li>
+   <li class="nav-item"><a class="nav-link" href="comingsoon.html">Blog</a></li>
    <li class="nav-item">
    <button class="light-mode-button" aria-label="Toggle Light Mode" onclick="toggle_light_mode()">
       <span></span>
