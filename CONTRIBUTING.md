@@ -1,4 +1,4 @@
-<h1 align="center"><b>Guidelines for Contribution</b></h1> 
+<h1 align="center"><b>Guidelines for Contribution</b></h1>
 
 <p align="center"><img src="./readme_assets/Contribute.png" width=600></p>
 
