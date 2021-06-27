@@ -346,5 +346,6 @@ p {
     90% {
         -webkit-transform: rotate(2deg);
         transform: rotate(2deg);
+
     }
 }
