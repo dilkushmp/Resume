@@ -29,6 +29,16 @@ const moocscards = [
     cardImage: "assets/images/education-page/linkedin.png",
     moocLink: "https://www.linkedin.com/learning/solidworks-simulation-dynamic-analysis/",
   },
+  {
+    title: "SOLIDWORKS: Advanced Simulation",
+    cardImage: "assets/images/education-page/linkedin.png",
+    moocLink: "https://www.linkedin.com/learning/solidworks-advanced-simulation/",
+  },
+  {
+    title: "SOLIDWORKS: Shell and Beam Modeling in FEA",
+    cardImage: "assets/images/education-page/linkedin.png",
+    moocLink: "https://www.linkedin.com/learning/solidworks-shell-and-beam-modeling-in-fea/",
+  },
 ];
 
 const experience = [
