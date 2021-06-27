@@ -28,7 +28,7 @@ html[data-theme='dark'] {
 
 /* -----Education Section CSS----- */
 
-@media (max-width:767px) {
+@media (max-width:567px) {
     .dropdown1 {
         position: absolute;
         text-align: center;
